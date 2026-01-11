@@ -28,7 +28,7 @@ export default function HomePage() {
     {
       title: "Kolam Olimpik",
       price: "75.000 / orang",
-      desc: "Kolam dengan standar olimpik, cocok untuk latihan renang profesional.",
+      desc: "Kolam dengan standar olimpik, cocok untuk latihan renang profesional",
       image:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqew_gQx3l3-vC4FYkfXyZhDs2yJK7va6AHYdsUrmdQPGjj1I01z9S_bV0mUoWkDLoHxwWuNhYsA2Laa1neCSqDvHsz_tHbsyR1U8naMlBwOfhSB8CyaYY-MXFpDTB4I14x8atdhLq3gA/s1600/kolam-olympic+-+PURBALINGGA+DOT+INFO.jpg",
       link: "/screen/kolamOlimpik",
@@ -187,5 +187,6 @@ export default function HomePage() {
     </div>
   );
 }
+
 
 
