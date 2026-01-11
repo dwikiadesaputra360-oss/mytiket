@@ -30,6 +30,7 @@ export default function FirstPage() {
         {/* Overlay gelap untuk membuat card lebih terlihat */}
         <View style={styles.overlay} />
 
+        
         {/* Container untuk centering */}
         <View style={styles.container}>
           {/* Card Ungu */}
@@ -140,5 +141,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
 });
+
 
 
