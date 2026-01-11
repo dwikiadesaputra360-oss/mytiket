@@ -19,7 +19,7 @@ export default function HomePage() {
   const tiketList = [
     {
       title: "Kolam Renang Utama",
-      price: "10.000 / orang",
+      price: "50.000 / orang",
       desc: "Kolam renang utama menyediakan berbagai wahana air, cocok untuk keluarga.",
       image:
         "https://cove-blog-id.sgp1.cdn.digitaloceanspaces.com/cove-blog-id/2024/05/Kolam-Renang-di-Tangerang-1.webp",
@@ -187,4 +187,5 @@ export default function HomePage() {
     </div>
   );
 }
+
 
