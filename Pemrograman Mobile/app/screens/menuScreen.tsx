@@ -14,12 +14,7 @@ const HomeScreen: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       {/* HEADER */}
-      <View style={styles.header}>
-        <View style={styles.logoContainer}>
-          <Ionicons name="ticket-outline" size={22} color="#fff" />
-          <Text style={styles.logoText}>MyTiket</Text>
-        </View>
-      </View>
+      
 
       {/* CONTENT */}
       <ScrollView contentContainerStyle={styles.content}>
@@ -105,6 +100,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
