@@ -35,7 +35,7 @@ export default function HomePage() {
     },
     {
       title: "Kolam Renang Anak",
-      price: "10.000 / orang",
+      price: "10.000 /orang",
       desc: "Kolam renang khusus anak dengan wahana ember tumpah dan area aman",
       image:
         "https://travelspromo.com/wp-content/uploads/2022/08/Wahana-ember-tumpah-di-kolam-renang-anak.jpg",
@@ -187,6 +187,7 @@ export default function HomePage() {
     </div>
   );
 }
+
 
 
 
