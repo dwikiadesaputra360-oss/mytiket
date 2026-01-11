@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
   },
+  
   overlay: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: 'rgba(0, 0, 0, 0.4)', // Overlay gelap semi-transparan
@@ -141,6 +142,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
 });
+
 
 
 
