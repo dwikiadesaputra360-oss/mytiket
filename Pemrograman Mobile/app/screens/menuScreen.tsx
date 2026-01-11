@@ -28,7 +28,7 @@ const HomeScreen: React.FC = () => {
         </Text>
 
         <Text style={styles.description}>
-          Website yang menyediakan pemesanan tiket kolam renang Laguna Biru.
+          Website yang menyediakan pemesanan tiket kolam renang Laguna Biru
           {"\n\n"}
           Wisata Air Yang Menyajikan Indahnya Pemandangan Alam dan Segarnya Udara Pegunungan
         </Text>
@@ -105,5 +105,6 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
