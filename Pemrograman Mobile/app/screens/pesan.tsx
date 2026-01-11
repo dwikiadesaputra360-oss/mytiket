@@ -18,11 +18,12 @@ export default function Pesan({ navigation }: any) {
 
       <Button
         title="Pesan Sekarang"
-        onPress={() => alert("Tiket berhasil dipesan!")}
+        onPress={() => alert("Tiket berhasil dipesan!!")}
       />
     </View>
   );
 }
+
 
 
 
