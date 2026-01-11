@@ -24,7 +24,7 @@ const HomeScreen: React.FC = () => {
       {/* CONTENT */}
       <ScrollView contentContainerStyle={styles.content}>
         <Text style={styles.title}>
-          Selamat Datang di Website MyTiket.
+          Hallo| Selamat Datang di Website MyTiket.
         </Text>
 
         <Text style={styles.description}>
@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
