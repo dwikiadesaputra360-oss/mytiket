@@ -12,6 +12,7 @@ import {
 
 import { useRouter } from "expo-router";
 
+
 const { width } = Dimensions.get('window');
 const isLargeScreen = width > 768;
 
@@ -140,3 +141,4 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
 });
+
