@@ -8,7 +8,7 @@ export default function Pesan({ navigation }: any) {
     <View style={{ padding: 20 }}>
       <Text style={{ fontSize: 26, fontWeight: "bold" }}>Pemesanan Tiket</Text>
 
-      <Text>JumlahTiket</Text>
+      <Text>Jumlah Tiket</Text>
       <TextInput
         keyboardType="numeric"
         style={{ borderWidth: 1, padding: 8, marginVertical: 10 }}
@@ -23,4 +23,5 @@ export default function Pesan({ navigation }: any) {
     </View>
   );
 }
+
 
