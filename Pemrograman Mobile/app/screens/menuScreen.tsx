@@ -39,7 +39,7 @@ const HomeScreen: React.FC = () => {
           onPress={() => router.push("/screens/menu")}
         >
           <Ionicons name="cart-outline" size={20} color="#fff" />
-          <Text style={styles.buttonText}>Beli Tiket Masuk Disini</Text>
+          <Text style={styles.buttonText}>Beli Tiket Masuk </Text>
         </TouchableOpacity>
       </ScrollView>
     </SafeAreaView>
@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
