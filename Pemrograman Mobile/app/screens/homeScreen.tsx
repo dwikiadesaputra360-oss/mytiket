@@ -52,7 +52,6 @@ export default function HomeScreen() {
             <Text style={styles.buttonText}>Beli Tiket Masuk</Text>
           </TouchableOpacity>
         </View>
-
         {/* LOKASI */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Lokasi</Text>
@@ -322,6 +321,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
