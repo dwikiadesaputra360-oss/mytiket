@@ -71,7 +71,6 @@ export default function Riwayat() {
     setRefreshing(true);
     loadOrders();
   };
-
   // FUNGSI EDIT
   const openEditModal = (order: Order) => {
     setEditingOrder(order);
@@ -688,3 +687,4 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
