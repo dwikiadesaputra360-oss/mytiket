@@ -72,14 +72,7 @@ export default function HomeScreen() {
         </View>
 
         {/* HARGA */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Harga Tiket</Text>
-          <Text style={styles.price}>@ Rp 10.000</Text>
-          <Text style={styles.sectionText}>
-            Dapat <Text style={{ fontWeight: "bold" }}>2 voucher gratis masuk</Text>{" "}
-            tiap pembelian 10 tiket
-          </Text>
-        </View>
+
 
         {/* JAM BUKA */}
         <View style={styles.section}>
@@ -322,6 +315,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
