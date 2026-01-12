@@ -62,6 +62,7 @@ export default function Menu() {
         }),
         status: "MENUNGGU PEMBAYARAN"
       };
+      
       // Ambil riwayat yang ada
       const existingOrdersJson = await AsyncStorage.getItem('orders');
       const orders = existingOrdersJson ? JSON.parse(existingOrdersJson) : [];
@@ -402,6 +403,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
