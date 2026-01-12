@@ -150,7 +150,7 @@ export default function Riwayat() {
     );
   };
 
-  // FUNGSI HAPUS SEMUA
+  // FUNGSI HAPUS 
   const handleClearAll = () => {
     Alert.alert(
       "Hapus Semua Riwayat",
@@ -687,4 +687,5 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
