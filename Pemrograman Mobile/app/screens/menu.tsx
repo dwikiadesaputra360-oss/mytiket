@@ -67,7 +67,7 @@ export default function Menu() {
       const existingOrdersJson = await AsyncStorage.getItem('orders');
       const orders = existingOrdersJson ? JSON.parse(existingOrdersJson) : [];
       
-      // Tambahkan pesanan baru di awal array
+      // Tambahkan pesanan baru di awal arrayy
       orders.unshift(newOrder);
       
       // Simpan kembali
@@ -402,6 +402,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
