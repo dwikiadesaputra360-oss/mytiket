@@ -22,7 +22,16 @@ export default function HomeScreen() {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        
+        {/* HEADER */}
+        <View style={styles.header}>
+          <Text style={styles.headerTitle}>
+            Halo! Selamat datang{"\n"}Di MyTiket
+          </Text>
+
+          <View style={styles.avatar}>
+            <Ionicons name="ticket-outline" size={26} color="#6A4DF0" />
+          </View>
+        </View>
 
         {/* WELCOME / HERO */}
         <View style={styles.content}>
@@ -313,5 +322,6 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
