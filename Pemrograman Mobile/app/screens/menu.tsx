@@ -239,7 +239,6 @@ export default function Menu() {
 }
 
 /* ================= STYLE ================= */
-
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
@@ -402,6 +401,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
