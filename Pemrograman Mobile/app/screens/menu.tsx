@@ -131,7 +131,6 @@ export default function Menu() {
         <View style={styles.header}>
           <Text style={styles.headerTitle}>Pesan Tiket</Text>
         </View>
-
         <TicketItem
           image="https://cove-blog-id.sgp1.cdn.digitaloceanspaces.com/cove-blog-id/2024/05/Kolam-Renang-di-Tangerang-1.webp"
           title="Kolam Renang Utama"
@@ -405,6 +404,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
