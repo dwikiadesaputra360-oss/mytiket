@@ -144,7 +144,6 @@ export default function Menu() {
           desc="Kolam dengan standar olimpik."
           price="Rp 75.000 / orang"
         />
-
         <TicketItem
           image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqew_gQx3l3-vC4FYkfXyZhDs2yJK7va6AHYdsUrmdQPGjj1I01z9S_bV0mUoWkDLoHxwWuNhYsA2Laa1neCSqDvHsz_tHbsyR1U8naMlBwOfhSB8CyaYY-MXFpDTB4I14x8atdhLq3gA/s1600/kolam-olympic+-+PURBALINGGA+DOT+INFO.jpg"
           title="Kolam Anak-anak" 
@@ -404,5 +403,6 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
