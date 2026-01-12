@@ -59,7 +59,6 @@ export default function HomeScreen() {
           <Text style={styles.sectionText}>
             Jl. Raya Ciapus, Kec. Tamansari, Kabupaten Bogor, Jawa Barat
           </Text>
-
           <TouchableOpacity
             style={styles.mapBox}
             onPress={() => Linking.openURL(MAP_URL)}
@@ -321,6 +320,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
