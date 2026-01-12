@@ -17,12 +17,13 @@ export default function Pesan({ navigation }: any) {
       />
 
       <Button
-        title="Pesan Sekarang"
+        title="Pesan tiket Sekarang"
         onPress={() => alert("Tiket berhasil dipesan!!")}
       />
     </View>
   );
 }
+
 
 
 
