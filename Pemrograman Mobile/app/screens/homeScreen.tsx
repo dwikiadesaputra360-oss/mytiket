@@ -45,7 +45,6 @@ export default function HomeScreen() {
             Wisata Air Yang Menyajikan Indahnya Pemandangan Alam dan Segarnya Udara
             Pegunungan
           </Text>
-
           <TouchableOpacity
             style={styles.button}
             onPress={() => router.push("/screens/menu")}
@@ -323,3 +322,4 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
