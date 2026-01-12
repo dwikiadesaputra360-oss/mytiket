@@ -34,7 +34,25 @@ export default function HomeScreen() {
         </View>
 
         {/* WELCOME / HERO */}
+                <View style={styles.content}>
+          <Text style={styles.title}>
+            Selamat Datang di Website MyTiket
+          </Text>
 
+          <Text style={styles.description}>
+            Website yang menyediakan pemesanan tiket kolam renang Laguna Biru.
+            {"\n"}
+            Wisata Air Yang Menyajikan Indahnya Pemandangan Alam dan Segarnya Udara
+            Pegunungan
+          </Text>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => router.push("/screens/menu")}
+          >
+            <Ionicons name="cart-outline" size={20} color="#fff" />
+            <Text style={styles.buttonText}>Beli Tiket Masuk</Text>
+          </TouchableOpacity>
+        </View>
 
         {/* LOKASI */}
         <View style={styles.section}>
@@ -304,6 +322,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
