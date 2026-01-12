@@ -78,7 +78,6 @@ export default function Menu() {
           onPress: () => router.push("/screens/riwayat")
         }
       ]);
-
       // Reset form
       setNama("");
       setAlamat("");
@@ -403,6 +402,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
