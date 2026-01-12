@@ -79,7 +79,7 @@ export default function Menu() {
           onPress: () => router.push("/screens/riwayat")
         }
       ]);
-      // Reset form
+      // Reset form terbaru
       setNama("");
       setAlamat("");
       setNoHp("");
@@ -401,6 +401,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
