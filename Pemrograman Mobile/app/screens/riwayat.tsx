@@ -16,7 +16,6 @@ import { useState, useCallback } from "react";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
-
 type Order = {
   id: string;
   title: string;
@@ -690,6 +689,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
