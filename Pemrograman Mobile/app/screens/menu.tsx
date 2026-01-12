@@ -70,7 +70,7 @@ export default function Menu() {
       // Tambahkan pesanan baru di awal arrayy
       orders.unshift(newOrder);
       
-      // Simpan kembali
+      // Simpan kembalii
       await AsyncStorage.setItem('orders', JSON.stringify(orders));
 
       Alert.alert("Berhasil", "Pesanan berhasil dibuat!", [
@@ -402,6 +402,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
