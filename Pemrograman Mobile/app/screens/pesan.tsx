@@ -4,7 +4,6 @@ import React, { useState } from "react";
 export default function Pesan({ navigation }: any) {
   const [jumlah, setJumlah] = useState("1");
 
-  
   return (
     <View style={{ padding: 20 }}>
       <Text style={{ fontSize: 26, fontWeight: "bold" }}>Pemesanann Tiket</Text>
@@ -24,6 +23,7 @@ export default function Pesan({ navigation }: any) {
     </View>
   );
 }
+
 
 
 
