@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
-
 const MAP_URL =
   "https://www.google.com/maps?q=Kolam+Renang+Tirta+Alam+Bogor";
 
@@ -323,6 +322,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 
 
 
